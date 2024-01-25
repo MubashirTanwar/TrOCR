@@ -1,0 +1,1 @@
+# This repository contains TrOCR implementation using different encoders and models
