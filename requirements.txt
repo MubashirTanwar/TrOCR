@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+torch
+PIL
+transformers[torch]
+accelerate
+datasets
+jiwer
