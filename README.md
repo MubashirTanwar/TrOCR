@@ -5,7 +5,7 @@ This project is about using TrOCR, a Transformer-based Optical Character Recogni
 
 ## Dataset
 
-The dataset consists of 2671 PNG images of lines extracted from scanned Marathi documents, and a CSV file `output.csv` that contains two columns: one for the image file name and the other for the corresponding text. The images and the CSV file are compressed in a zip file `output-zip.zip` for convenience.
+The dataset consists of 2671 PNG images of lines extracted from scanned Marathi documents, and a CSV file `output.csv` that contains two columns: one for the image file name and the other for the corresponding text. The images and the CSV file are compressed in a zip file `output-zip.zip` and [un-preprocessed](https://drive.google.com/drive/folders/1EZ2lc8eZkOFeopAD_3eztsO9-WcCLgvP?usp=sharing) for convenience.
 
 ## Notebooks
 
@@ -15,7 +15,7 @@ The project contains two Jupyter notebooks: `train.ipynb` and `test.ipynb`. The 
 
 To use this project, you need to have Python 3.6 or higher and install the required packages listed in the requirements.txt file. You also need to download the pre-trained TrOCR model from the Hugging Face model hub and save it in the models folder. Then, you can run the notebooks in your preferred environment, such as Google Colab or your local machine.
 
-## Pre-trained Models
+## Pre-trained Models]
 
 The project uses two pre-trained models for the vision encoder and the text decoder:
 
