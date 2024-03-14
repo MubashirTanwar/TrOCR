@@ -5,7 +5,7 @@ This project is about using TrOCR, a Transformer-based Optical Character Recogni
 
 ## Dataset
 
-The dataset consists of 2671 PNG images of lines extracted from scanned Marathi documents, and a CSV file `output.csv` that contains two columns: one for the image file name and the other for the corresponding text. The images and the CSV file are compressed in a zip file `output-zip.zip` and [un-preprocessed](https://drive.google.com/drive/folders/1EZ2lc8eZkOFeopAD_3eztsO9-WcCLgvP?usp=sharing) for convenience.
+The dataset consists of 2671 PNG images of lines extracted from scanned Marathi documents, and a CSV file `output.csv` that contains two columns: one for the image file name and the other for the corresponding text. The images and the CSV file are compressed in a zip file `output-zip.zip` and un-preprocessed images at `raw_dataset` for convenience.
 
 ## Notebooks
 
