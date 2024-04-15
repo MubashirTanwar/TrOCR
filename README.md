@@ -5,8 +5,13 @@ This project is about using TrOCR, a Transformer-based Optical Character Recogni
 
 ## Dataset
 
-The dataset consists of 2671 PNG images of lines extracted from scanned Marathi documents, and a CSV file `output.csv` that contains two columns: one for the image file name and the other for the corresponding text. The images and the CSV file are compressed in a zip file `output-zip.zip` and un-preprocessed images at `raw_dataset` for convenience.
-In addition to the line-level dataset, a word-level dataset has also been uploaded at `words-dataset` which includes 1372 un-preprocessed PNG images. Accompanying these images is a CSV file `words.csv`, this file follows the same format as the CSV file for the line-level dataset.
+This repository includes two types of datasets, both originating from scanned Marathi documents. One dataset is organized at the line level, while the other is at the word level
+
+### Line-Level Dataset
+The line-level dataset consists of 2671 PNG images of lines, along with a CSV file `output.csv` that contains two columns: one for the image file name and the other for the corresponding text. The images and the CSV file are compressed in a zip file `output-zip.zip` and un-processed images at `raw_dataset` for convenience.
+
+### Word-Level Dataset
+In addition to the line-level dataset, a word-level dataset has also been uploaded at `words-dataset` which includes 8077 PNG images, available in both preprocessed and un-processed forms, compressed into `words-preprocessed.zip` and `words-raw.zip` files respectively. Accompanying these images is a CSV file `words.csv`, this file follows the same format as the CSV file for the line-level dataset, containing the image file name and the corresponding text.
 
 ## Notebooks
 
